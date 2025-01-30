@@ -1,0 +1,18 @@
+.address-block {
+  font-style: normal;
+  /* Add other styles if needed */
+}
+
+.custom-tooltip .ant-tooltip-inner {
+  max-width: 200px;
+  word-break: break-word;
+}
+
+.truncated-text {
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 150px;
+}

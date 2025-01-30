@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"; // Assuming you're using React Router
 import "./Navbar.css"; // Create this CSS file
 
 const Navbar = () => {
-  console.log("Navbar");
   return (
     <nav className="navbar">
       <ul className="nav-list">

@@ -7,7 +7,7 @@ export const AboutRoutes = () => {
   return (
     <Switch>
       <Route path="/about" exact component={About} />
-      <Redirect to="/about" from="/" />
+      <Redirect to="/about" />
     </Switch>
   );
 };
