@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"; // Assuming you're using React Router
 const Navbar = () => {
   return (
     <nav className="left-0 top-0 w-64 h-full bg-gray-800 text-white p-4">
-      <ul className="space-y-4">
+      <ul className="space-y-8">
         <li>
           <Link to="/" className="text-lg hover:text-gray-400">
             Home
