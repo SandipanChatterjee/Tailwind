@@ -6,8 +6,8 @@ import Profile from "../components/Home/Profile/Profile";
 export const HomeRoutes = () => {
   return (
     <Switch>
-      <Route path="/" exact component={Home} />
       <Route path="/profile/:id" exact component={Profile} />
+      <Route path="/" exact component={Home} />
       <Redirect to="/" />
     </Switch>
   );
